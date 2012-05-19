@@ -1,0 +1,15 @@
+20:02 < friggle> Cheery: so, let's say you want to support a hardware cursor. 
+                 The way Dom suggested to do it is you vc_dispmanx_element_add 
+                 to a certain layer. Then, as you update it you get an update 
+                 handle with  vc_dispmanx_update_start(0);
+20:03 < friggle> Cheery: then vcdispmanx_element_remove your cursor, then 
+                 vc_dispmanx_element_add again (with a new dest_rect)
+20:03 < friggle> then vc_dispmanx_update_submit (this remove and add is atomic 
+                 because it occurred between and update_start/update_submit)
+20:03 -!- veryevil [5aced5bb@gateway/web/freenode/ip.90.206.213.187] has joined 
+          #raspberrypi
+20:03 -!- mode/#raspberrypi [+v veryevil] by PiBot
+20:04 < friggle> looked to me like yo ucould 
+                 vc_dispmanx_element_change_attributes instead, but Dom said he 
+                 preferred that way for some reason
+

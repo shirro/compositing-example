@@ -1,0 +1,8 @@
+Raspberry Pi Desktop Compositing Demo
+
+Posted by cheery to http://www.raspberrypi.org/phpBB3/viewtopic.php?f=6&t=6122
+
+Changed build.sh to Makefile
+
+Use make. Run ./compositing and while it is running run ./compositing2
+
