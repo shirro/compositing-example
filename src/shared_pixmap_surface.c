@@ -1,3 +1,6 @@
+/* Copyright (c) 2012 Cheery
+ *
+ * See the file license.txt for copying permission. */
 #include <assert.h>
 #include "GLES/gl.h"
 #include "EGL/egl.h"

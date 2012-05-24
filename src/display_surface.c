@@ -1,3 +1,6 @@
+/* Copyright (c) 2012 Cheery
+ *
+ * See the file license.txt for copying permission. */
 #include "bcm_host.h"
 #include "EGL/egl.h"
 #include "EGL/eglext.h"

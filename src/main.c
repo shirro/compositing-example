@@ -1,3 +1,6 @@
+/* Copyright (c) 2012 Cheery
+ *
+ * See the file license.txt for copying permission. */
 #include <string.h> /* memset */
 #include <assert.h>
 #include <math.h> /* tan, sin */
