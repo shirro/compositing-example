@@ -1,4 +1,4 @@
-CFLAGS:=-I/opt/vc/include/
+CFLAGS:=-I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux
 LDFLAGS:=-L/opt/vc/lib/ -lGLESv2 -lEGL -lopenmaxil -lbcm_host -lvcos -lvchiq_arm
 
 all: compositing compositing2
